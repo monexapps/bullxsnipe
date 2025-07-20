@@ -51,7 +51,7 @@ struct KeycutApp: App {
 
 // MARK: - Clipboard Manager
 class ClipboardManager: ObservableObject {
-    private let telegramUsername = "TradeonNovaBot" // Without '@'
+    private let telegramUsername = "" // Without '@'
     private var timer: Timer?
     private var lastChangeCount: Int = 0
     
