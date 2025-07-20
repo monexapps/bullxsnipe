@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourcompany.Keycut</string>
+    <key>CFBundleName</key>
+    <string>Keycut</string>
+    <key>CFBundleExecutable</key>
+    <string>Keycut</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>NSApplicationSceneManifest</key>
+    <dict>
+        <key>NSApplicationShowsMenuBar</key>
+        <true/>
+        <key>Enable Multiple Windows</key>
+        <false/>
+    </dict>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    
+    <!-- ADD THESE USAGE DESCRIPTIONS -->
+        <key>NSAppleEventsUsageDescription</key>
+        <string>This app needs to send keystrokes to Telegram to automatically paste and send messages.</string>
+        <key>NSSystemEventsUsageDescription</key>
+        <string>This app needs to control System Events to simulate keyboard input for pasting and sending messages in Telegram.</string>
+    </dict>
+</plist>

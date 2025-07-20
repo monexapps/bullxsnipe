@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31A45CA2E2CF61E0047109F /* Keycut.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = D31A45C92E2CF61E0047109F /* Keycut.entitlements */; };
+		D34898AD2E2CE8570076A7EB /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = D34898AC2E2CE8570076A7EB /* Property List.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D348988E2E2CDB0E0076A7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D34898772E2CDB0D0076A7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D348987E2E2CDB0D0076A7EB;
+			remoteInfo = Keycut;
+		};
+		D34898982E2CDB0E0076A7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D34898772E2CDB0D0076A7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D348987E2E2CDB0D0076A7EB;
+			remoteInfo = Keycut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D31A45C92E2CF61E0047109F /* Keycut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Keycut.entitlements; sourceTree = "<group>"; };
+		D348987F2E2CDB0D0076A7EB /* Keycut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keycut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D348988D2E2CDB0E0076A7EB /* KeycutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeycutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34898972E2CDB0E0076A7EB /* KeycutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeycutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34898AC2E2CE8570076A7EB /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D34898812E2CDB0D0076A7EB /* Keycut */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Keycut;
+			sourceTree = "<group>";
+		};
+		D34898902E2CDB0E0076A7EB /* KeycutTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeycutTests;
+			sourceTree = "<group>";
+		};
+		D348989A2E2CDB0E0076A7EB /* KeycutUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KeycutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D348987C2E2CDB0D0076A7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D348988A2E2CDB0E0076A7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34898942E2CDB0E0076A7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D34898762E2CDB0D0076A7EB = {
+			isa = PBXGroup;
+			children = (
+				D31A45C92E2CF61E0047109F /* Keycut.entitlements */,
+				D34898AC2E2CE8570076A7EB /* Property List.plist */,
+				D34898812E2CDB0D0076A7EB /* Keycut */,
+				D34898902E2CDB0E0076A7EB /* KeycutTests */,
+				D348989A2E2CDB0E0076A7EB /* KeycutUITests */,
+				D34898802E2CDB0D0076A7EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D34898802E2CDB0D0076A7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D348987F2E2CDB0D0076A7EB /* Keycut.app */,
+				D348988D2E2CDB0E0076A7EB /* KeycutTests.xctest */,
+				D34898972E2CDB0E0076A7EB /* KeycutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D348987E2E2CDB0D0076A7EB /* Keycut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34898A12E2CDB0E0076A7EB /* Build configuration list for PBXNativeTarget "Keycut" */;
+			buildPhases = (
+				D348987B2E2CDB0D0076A7EB /* Sources */,
+				D348987C2E2CDB0D0076A7EB /* Frameworks */,
+				D348987D2E2CDB0D0076A7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D34898812E2CDB0D0076A7EB /* Keycut */,
+			);
+			name = Keycut;
+			packageProductDependencies = (
+			);
+			productName = Keycut;
+			productReference = D348987F2E2CDB0D0076A7EB /* Keycut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D348988C2E2CDB0E0076A7EB /* KeycutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34898A42E2CDB0E0076A7EB /* Build configuration list for PBXNativeTarget "KeycutTests" */;
+			buildPhases = (
+				D34898892E2CDB0E0076A7EB /* Sources */,
+				D348988A2E2CDB0E0076A7EB /* Frameworks */,
+				D348988B2E2CDB0E0076A7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D348988F2E2CDB0E0076A7EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D34898902E2CDB0E0076A7EB /* KeycutTests */,
+			);
+			name = KeycutTests;
+			packageProductDependencies = (
+			);
+			productName = KeycutTests;
+			productReference = D348988D2E2CDB0E0076A7EB /* KeycutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D34898962E2CDB0E0076A7EB /* KeycutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34898A72E2CDB0E0076A7EB /* Build configuration list for PBXNativeTarget "KeycutUITests" */;
+			buildPhases = (
+				D34898932E2CDB0E0076A7EB /* Sources */,
+				D34898942E2CDB0E0076A7EB /* Frameworks */,
+				D34898952E2CDB0E0076A7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34898992E2CDB0E0076A7EB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D348989A2E2CDB0E0076A7EB /* KeycutUITests */,
+			);
+			name = KeycutUITests;
+			packageProductDependencies = (
+			);
+			productName = KeycutUITests;
+			productReference = D34898972E2CDB0E0076A7EB /* KeycutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D34898772E2CDB0D0076A7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					D348987E2E2CDB0D0076A7EB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D348988C2E2CDB0E0076A7EB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D348987E2E2CDB0D0076A7EB;
+					};
+					D34898962E2CDB0E0076A7EB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = D348987E2E2CDB0D0076A7EB;
+					};
+				};
+			};
+			buildConfigurationList = D348987A2E2CDB0D0076A7EB /* Build configuration list for PBXProject "Keycut" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D34898762E2CDB0D0076A7EB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D34898802E2CDB0D0076A7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D348987E2E2CDB0D0076A7EB /* Keycut */,
+				D348988C2E2CDB0E0076A7EB /* KeycutTests */,
+				D34898962E2CDB0E0076A7EB /* KeycutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D348987D2E2CDB0D0076A7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31A45CA2E2CF61E0047109F /* Keycut.entitlements in Resources */,
+				D34898AD2E2CE8570076A7EB /* Property List.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D348988B2E2CDB0E0076A7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34898952E2CDB0E0076A7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D348987B2E2CDB0D0076A7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34898892E2CDB0E0076A7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34898932E2CDB0E0076A7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D348988F2E2CDB0E0076A7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D348987E2E2CDB0D0076A7EB /* Keycut */;
+			targetProxy = D348988E2E2CDB0E0076A7EB /* PBXContainerItemProxy */;
+		};
+		D34898992E2CDB0E0076A7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D348987E2E2CDB0D0076A7EB /* Keycut */;
+			targetProxy = D34898982E2CDB0E0076A7EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D348989F2E2CDB0E0076A7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D34898A02E2CDB0E0076A7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D34898A22E2CDB0E0076A7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Keycut/Keycut.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monexapps.Keycut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D34898A32E2CDB0E0076A7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Keycut/Keycut.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monexapps.Keycut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D34898A52E2CDB0E0076A7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monexapps.KeycutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keycut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Keycut";
+			};
+			name = Debug;
+		};
+		D34898A62E2CDB0E0076A7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monexapps.KeycutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keycut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Keycut";
+			};
+			name = Release;
+		};
+		D34898A82E2CDB0E0076A7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monexapps.KeycutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Keycut;
+			};
+			name = Debug;
+		};
+		D34898A92E2CDB0E0076A7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 39BNUJ7SBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.monexapps.KeycutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Keycut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D348987A2E2CDB0D0076A7EB /* Build configuration list for PBXProject "Keycut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D348989F2E2CDB0E0076A7EB /* Debug */,
+				D34898A02E2CDB0E0076A7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34898A12E2CDB0E0076A7EB /* Build configuration list for PBXNativeTarget "Keycut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34898A22E2CDB0E0076A7EB /* Debug */,
+				D34898A32E2CDB0E0076A7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34898A42E2CDB0E0076A7EB /* Build configuration list for PBXNativeTarget "KeycutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34898A52E2CDB0E0076A7EB /* Debug */,
+				D34898A62E2CDB0E0076A7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34898A72E2CDB0E0076A7EB /* Build configuration list for PBXNativeTarget "KeycutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34898A82E2CDB0E0076A7EB /* Debug */,
+				D34898A92E2CDB0E0076A7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D34898772E2CDB0D0076A7EB /* Project object */;
+}
